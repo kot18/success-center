@@ -3,18 +3,18 @@ import classes from "../css/bottom.module.css"
 
 const Bottom = () => {
     return (
-        <bottom className={classes.bottomApp}>
+        <section className={classes.bottomApp}>
             <div className={classes.bottomSection}>
-                Мы находимся по адресу: улица Кирова, 44, Городец, Нижегородская область
+                <p>Мы находимся по адресу: улица Кирова, 44, Городец, Нижегородская область</p>
             </div>
             <div className={classes.bottomSection}>
-                Телефон для связи: 8 800 555 35 35
-                Почта: succes-center@yandex.ru
+                <p>Телефон для связи: 8 800 555 35 35</p>
+                <p>Почта: succes-center@yandex.ru</p>
             </div>
             <div className={classes.bottomSection}>
-                Copyright @kot
+                <p>Copyright @kot</p>
             </div>
-        </bottom>
+        </section>
     );
 };
 
