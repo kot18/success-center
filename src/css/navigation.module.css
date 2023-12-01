@@ -1,0 +1,20 @@
+.appNav {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.appNavUnit {
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+}
+
+.appNavUnit:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}

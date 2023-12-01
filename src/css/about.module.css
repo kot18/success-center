@@ -1,0 +1,36 @@
+.aboutBoss {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    background-color: darkgray;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.bossImg {
+    width: 370px;
+    height: 500px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.bossText {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 23px;
+}
+
+.aboutUs {
+    display: flex;
+    width: 1140px;
+    height: auto;
+    background-color: yellowgreen;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 23px;
+}
+
+.containerBossInfo {
+    display: flex;
+    flex-direction: row;
+}
