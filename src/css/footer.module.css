@@ -1,0 +1,35 @@
+.footerApp {
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    padding: 15px;
+    margin: 30px auto 0;
+    background-color: #fbc02d;
+    font-family: 'PT Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    gap: 30%;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.socialGrupp {
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+}
+
+.socialGruppGrupp {
+    margin-left: 4px;
+    text-decoration: none;
+    color: #45668e;
+}

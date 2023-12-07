@@ -10,7 +10,7 @@
 
 .appHeader {
     display: flex;
-    background-color: #da6b6b;
+    background-color: #fbc02d;
     flex-direction: row;
     width: 1200px;
     margin: 0 auto;
@@ -58,5 +58,5 @@
 
 .appNavUnit:hover {
     cursor: pointer;
-    background-color: #da6b6b;
+    background-color: #fbc02d;
 }
