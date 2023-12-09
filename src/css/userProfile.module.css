@@ -1,0 +1,50 @@
+.sectionContainer {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    font-family: 'PT Sans', sans-serif;
+    flex-direction: row;
+}
+
+.imgContainer {
+    display: flex;
+    border-radius: 7px;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    flex-direction: column;
+}
+
+.photoProfile {
+
+}
+
+.userInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.userInfoItem {
+    display: flex;
+    padding: 5px;
+    background-color: #e7e4e4;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.userInfoItemButton {
+    border: none;
+    margin-left: auto;
+    width: 130px;
+    cursor: pointer;
+}
+
+.lastCommentsContainer {
+
+}
