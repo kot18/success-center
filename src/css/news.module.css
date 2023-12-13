@@ -39,5 +39,6 @@
 }
 
 .headingBlock {
-
+    text-decoration: underline;
+    cursor: pointer;
 }

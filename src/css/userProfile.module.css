@@ -10,17 +10,17 @@
 }
 
 .imgContainer {
+
+    flex-direction: column;
+}
+
+.photoProfile {
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     display: flex;
     border-radius: 7px;
     background-size: cover;
     width: 300px;
     height: 300px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-    flex-direction: column;
-}
-
-.photoProfile {
-
 }
 
 .userInfoContainer {
@@ -36,6 +36,8 @@
     background-color: #e7e4e4;
     flex-direction: row;
     gap: 20px;
+    border-radius: 7px;
+    border: 1px solid #d5d0d0;
 }
 
 .userInfoItemButton {
@@ -43,6 +45,12 @@
     margin-left: auto;
     width: 130px;
     cursor: pointer;
+    border-radius: 7px;
+}
+
+.userInfoItemButton:hover {
+    transition: 200ms;
+    background-color: #fbc02d;
 }
 
 .lastCommentsContainer {

@@ -6,11 +6,18 @@ const UserComponent = () => {
     return (
         <section className={classes.sectionContainer}>
             <div className={classes.imgContainer}>
-                {/*<button className={classes.userInfoItemButton}>Изменить фото</button>*/}
-                {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
+                <button className={classes.userInfoItemButton}>Изменить фото</button>
                 <img className={classes.photoProfile} src={avatar} alt="user photo"></img>
             </div>
             <div className={classes.userInfoContainer}>
+                <div className={classes.userInfoItem}>
+                    <p>Фамилия: {"Кот"}</p>
+                    <button className={classes.userInfoItemButton}>Изменить</button>
+                </div>
+                <div className={classes.userInfoItem}>
+                    <p>Имя: {"Андрей"}</p>
+                    <button className={classes.userInfoItemButton}>Изменить</button>
+                </div>
                 <div className={classes.userInfoItem}>
                     <p>Дата рождения: {"03.02.2003"}</p>
                     <button className={classes.userInfoItemButton}>Изменить</button>
