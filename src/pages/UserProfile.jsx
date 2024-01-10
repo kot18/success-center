@@ -6,6 +6,7 @@ import NavigationComponent from "../components/navigationComponent";
 const NewsAndArticles = () => {
     return (
         <>
+            <title>Ваш аккаунт</title>
             <NavigationComponent></NavigationComponent>
             <UserComponent></UserComponent>
             <FooterComponent></FooterComponent>

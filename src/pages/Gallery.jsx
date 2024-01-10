@@ -7,6 +7,7 @@ import FooterComponent from "../components/footerComponent";
 const Gallery = () => {
     return (
         <>
+            <title>Галерея</title>
             <NavigationComponent></NavigationComponent>
             <GalleryComponent></GalleryComponent>
             <FooterComponent></FooterComponent>

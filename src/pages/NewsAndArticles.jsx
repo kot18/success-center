@@ -7,6 +7,7 @@ import FooterComponent from "../components/footerComponent";
 const NewsAndArticles = () => {
     return (
         <>
+          <title>Новости и статьи</title>
           <NavigationComponent></NavigationComponent>
           <NewsComponent></NewsComponent>
           <FooterComponent></FooterComponent>
